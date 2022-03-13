@@ -9,7 +9,6 @@ public class szamjegyoszegzo {
             sumDigits += Math.abs(number) % 10;
             number = number/10;
         }while(number != 0);
-
         System.out.println("Számjegyek összege: " + sumDigits);
     }
 }
